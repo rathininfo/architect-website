@@ -312,7 +312,19 @@ header{
     width: 100%;
     filter: grayscale();
 }
-
-
-
 /* End Sponspors style */
+/* start footer section */
+footer{
+    background-color: var(--banner-background-color);
+    max-width: 1440px;
+    margin: 0 auto;
+    margin-bottom: 150px;
+}
+
+footer p{
+    text-align: center;
+    padding: 39px;
+    margin-top: 130px;
+}
+
+/* End footer section */
