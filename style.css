@@ -1,0 +1,234 @@
+*{margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* start shared style  */
+
+body{
+
+    font-family: 'Work Sans', sans-serif;
+}
+
+:root{
+    --banner-background-color:rgba(255, 144, 14, 0.10);
+    --primary-color:#FF900E;
+    --secoendry-color:#727272;
+    --title-font-size:1.5rem;
+    --description-font-size: 1rem;
+}
+
+.primary-btn{
+    background-color: var(--primary-color);
+    padding: 20px 25px;
+    font-weight: 600;
+    border-radius: 8px;
+    font-size: 1.2rem;
+    color: #ffffff;
+    border: none;
+}
+
+/* End shared style  */
+header{
+    background-color: var(--banner-background-color);
+}
+.nav-container{
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 63px 0px 116px 0px;
+}
+.nav-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.menu-container ul{
+    display: flex;
+    gap: 45px;
+}
+
+.menu-container ul li{
+    list-style: none;
+    
+}
+
+.menu-container ul li a{
+    text-decoration: none;
+    color: var(--secoendry-color);
+}
+
+
+/* start banner section  style*/
+
+
+.banner-container{
+    max-width: 1440px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.banner-content-container{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.banner-content{
+    width: 862px;
+    margin: 0 auto;
+    margin-bottom: 50px;
+}
+
+.banner-img{
+    border-radius: 8px;
+    padding-bottom: 45px;
+}
+
+.banner-img img{
+    width: 100%;
+    height: 100%;
+}
+
+.banner-content h1{
+    font-weight: 700;
+    font-size: 4rem;
+}
+
+.banner-content p{
+    font-size: var(--description-font-size);
+    line-height: 26px;
+    margin: 53px 0px;
+}
+
+/* End banner section style */
+
+/* start Features section style */
+
+.features-container{
+    display: flex;
+    max-width: 1440px;
+    margin: 0 auto;
+    margin-top: 85px;
+    gap: 4.2rem;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-bottom: 130px;
+}
+
+.team-container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.5rem;
+}
+
+.team-container img{
+    width: 100%;
+    height: 100%;
+}
+
+.features-all-content{
+    width: 537px;
+}
+
+.features-all-content h2{
+    font-size: 1.5rem;
+    font-weight: 800;
+}
+
+.features-all-content p{
+    color: var(--secoendry-color);
+    font-size: var(--description-font-size);
+    margin: 24px 0px 32px 0px;
+    line-height: 26px;
+}
+
+
+.text-color-style1{
+    color: var(--secoendry-color);
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+.text-color-style2{
+    color: var(--primary-color);
+    font-size: 1.5rem;
+    font-weight: 800;
+}
+
+/* End Features section style */
+
+.experience-section{
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.experience-container{
+    display: flex;
+    gap: 60px;
+}
+
+.facilities-container{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.facilities-name{
+    border-radius: 8px;
+    background: #FFF;
+    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.06);
+    padding: 30px;
+}
+
+.facilities-name p{
+    margin-top: 10px;
+    line-height: 26px;
+    font-size: 1rem;
+    color:var(--secoendry-color) ;
+}
+
+.experience-title-description h2{
+    font-size: 1.5rem;
+    font-weight: 700;
+    width: 468px;
+    border-left: 5px solid #FF900E;
+    padding-left: 21px;
+}
+
+.experience-title-description p{
+    font-size: 1rem;
+    font-weight: 400;
+    margin: 24px 0px 30px 0px;
+    line-height: 26px;
+    color:var(--secoendry-color) ;
+}
+
+.experience-image img{
+ height: 90%;
+ margin-left: 60px;
+}
+
+.experience-year h2{
+    font-weight: 700;
+}
+
+.experience-year p{
+    
+}
+
+.experience-10years{
+    border-radius: 8px;
+    
+}
+
+.total-experience{
+    position: relative;
+    background-color: var(--primary-color);
+    display: inline-block;
+    padding: 40px 45px;
+    color: #ffffff;
+    border-radius: 8px;
+    top: -80px;
+}
