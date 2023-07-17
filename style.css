@@ -41,7 +41,6 @@ header{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    flex-wrap: wrap;
 }
 
 .menu-container ul{
@@ -192,9 +191,9 @@ header{
 .experience-title-description h2{
     font-size: 1.5rem;
     font-weight: 700;
-    width: 468px;
     border-left: 5px solid #FF900E;
-    padding-left: 21px;
+    padding: 10px;
+    
 }
 
 .experience-title-description p{
@@ -328,3 +327,256 @@ footer p{
 }
 
 /* End footer section */
+
+
+
+/* Responsive  section for small mobile device */
+
+@media screen and (max-width:576px) {
+    .nav-content{
+        flex-direction: column;
+        line-height: 50px;
+    }
+
+    .features-all-content{
+        text-align: center;
+    }
+
+    .experience-container{
+        flex-direction: column-reverse;
+    }
+
+    .experience-title-description{
+        text-align: center;
+    }
+
+    .experience-title-description h2{
+        border: 0;
+    }
+
+    .experience-title-description p{
+        padding: 30px;
+    }
+
+    .facilities-container{
+        text-align: center;
+    }
+
+    .experience-image img{
+        width: 100%;
+        margin: 0;
+    }
+
+    .experience-year{
+    text-align: center;
+    }
+
+    .facts-container{
+        margin-top: 50px;
+    }
+
+    .facts-title-description{
+        text-align: center;
+    }
+
+    .sponsport-container{
+        flex-direction: column;
+    }
+
+    .sponsport-container img{
+       width: 30%;
+    }
+
+    
+}
+
+
+/* Responsive  section for tab device */
+
+@media screen and (min-width:576px) and (max-width:768px)   {
+    .nav-content{
+        flex-direction: column;
+        line-height: 50px;
+    }
+
+    .features-all-content{
+        text-align: center;
+    }
+
+    .experience-container{
+        flex-direction: column-reverse;
+    }
+
+    .experience-title-description{
+        text-align: center;
+    }
+
+    .experience-title-description h2{
+        border: 0;
+    }
+
+    .experience-title-description p{
+        padding: 30px;
+    }
+
+    .facilities-container{
+        text-align: center;
+    }
+
+    .experience-image img{
+        width: 100%;
+        margin: 0;
+    }
+
+    .experience-year{
+    text-align: center;
+    }
+
+    .facts-container{
+        margin-top: 50px;
+    }
+
+    .facts-title-description{
+        text-align: center;
+    }
+
+    .sponsport-container{
+        flex-direction: column;
+    }
+
+    .sponsport-container img{
+       width: 30%;
+    }
+
+    
+}
+
+
+
+@media screen and (min-width:768px) and (max-width:992px)   {
+    .nav-content{
+        flex-direction: column;
+        line-height: 50px;
+    }
+
+    .features-all-content{
+        text-align: center;
+    }
+
+    .experience-container{
+        flex-direction: column-reverse;
+    }
+
+    .experience-title-description{
+        text-align: center;
+    }
+
+    .experience-title-description h2{
+        border: 0;
+    }
+
+    .experience-title-description p{
+        padding: 30px;
+    }
+
+    .facilities-container{
+        text-align: center;
+    }
+
+    .experience-image img{
+        width: 100%;
+        margin: 0;
+    }
+
+    .experience-year{
+    text-align: center;
+    }
+
+    .facts-container{
+        margin-top: 50px;
+    }
+
+    .facts-title-description{
+        text-align: center;
+    }
+
+    .sponsport-container{
+        flex-direction: column;
+    }
+
+    .sponsport-container img{
+       width: 30%;
+    }
+
+    
+}
+
+
+
+
+/* Responsive  section for laptop device */
+
+
+@media screen and (min-width:992px) and (max-width:1200px)   {
+    .nav-content{
+        flex-direction: column;
+        line-height: 50px;
+    }
+
+    .features-all-content{
+        text-align: center;
+    }
+
+    .experience-container{
+        flex-direction:column;
+    }
+
+    .experience-title-description{
+        text-align: center;
+    }
+
+    .experience-title-description h2{
+        border: 0;
+    }
+
+    .experience-title-description p{
+        padding: 0px 150px;
+    }
+
+    .facilities-container{
+        text-align: center;
+    }
+
+    .facilities-name p{
+        padding: 0px 200px;
+    }
+
+    .experience-image img{
+        width: 100%;
+        margin: 0;
+    }
+
+    .experience-year{
+    text-align: center;
+    }
+
+    .facts-container{
+        margin-top: 50px;
+    }
+
+    .facts-title-description{
+        text-align: center;
+    }
+
+    .sponsport-container{
+        flex-wrap: wrap;
+    }
+
+    .sponsport-container img{
+       width: 20%;
+    }
+}
+
+
+
+
