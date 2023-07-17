@@ -207,7 +207,7 @@ header{
 
 .experience-image img{
  height: 90%;
- margin-left: 60px;
+ margin-left: 50px;
 }
 
 .experience-year h2{
@@ -231,4 +231,41 @@ header{
     color: #ffffff;
     border-radius: 8px;
     top: -80px;
+}
+
+.facts-container{
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.facts-title-description h2{
+    margin-bottom: 24px;
+}
+
+.facts-title-description p{
+    margin-bottom: 100px;
+}
+
+.cart-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 142.7px;
+}
+
+.cart{
+    border: 1px solid #FF900E;
+    border-radius: 8px;
+    padding: 35px 50px;
+}
+
+.cart h2{
+    color: color: #424242;
+    margin:10px 0px;
+}
+
+.cart-content{
+    text-align: center;
+    line-height: 26px;
+    color:var(--secoendry-color) ;
 }
